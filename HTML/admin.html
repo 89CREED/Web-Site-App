@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script defer src="/JavaScript/admin.js"></script>
+    <title>Admin management</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">Teleport.</h2>
+        <nav class="nav-bar">
+            <div class="dropdown-menu">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="main.html?username=admin#home">Home</a>
+                    <a href="main.html?username=admin#about">About</a>
+                    <a href="main.html?username=admin#take-ride">Take a ride</a>
+                    <a href="main.html?username=admin#contacts">Contacts</a>
+                </div>
+            </div>
+            <button class="btn-login" id="main">Login</button>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="user-wrap">
+            <div class="users" id="users"></div>
+        </div>
+        <div class="order-wrap">
+            <div class="orders" id="orders"></div>
+        </div>
+        
+    </section>
+
+    <footer id="contacts">
+        <div class="footer-container">
+            <div class="logo-section">
+                <h3>Teleport.</h3>
+                <p>© 2024 Teleport. All rights reserved.</p>
+            </div>
+            <div class="social-section">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#"><i class='bx bxl-gmail' ></i></a>
+            </div>
+            <div class="contacts">
+                <p><i class='bx bxs-map-pin' ></i>Maria Cebotari 37 street, Chisinau</p>
+                <p><i class='bx bxs-phone' ></i>+373-62-58-88-77</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
